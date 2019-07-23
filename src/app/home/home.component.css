@@ -1,0 +1,130 @@
+.border-bottom_style {
+  border-bottom: 2px solid #00b8d4;
+}
+
+.border-top_style:before {
+  content: '';
+  background-color: #00b8d4;
+  position: absolute;
+  top: 0px;
+  width: 46%;
+  height: 4px;
+}
+
+@media only Screen and (max-width: 320px) {
+  .border-top_style:before {
+    width: 74%;
+  }
+}
+
+@media only Screen and (min-width: 350px) and (max-width: 376px) {
+  .border-top_style:before {
+    width: 64%;
+  }
+}
+
+@media only Screen and (min-width: 376px) and (max-width: 426px) {
+  .border-top_style:before {
+    width: 54%;
+  }
+}
+
+@media only Screen and (min-width: 426px) and (max-width: 768px) {
+  .border-top_style:before {
+    width: 74%;
+  }
+}
+
+@media only Screen and (min-width: 769px) and (max-width: 1024px) {
+  .border-top_style:before {
+    width: 54%;
+  }
+}
+
+@media only Screen and (min-width: 1025px) and (max-width: 1440px) {
+  .border-top_style:before {
+    width: 44%;
+  }
+}
+
+.bg-lightgrey {
+  background-color: #EEEEEE !important;
+}
+
+.text-lightgrey {
+  color: #bababa !important;
+}
+
+.border-x:before {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: #bdbdbd4d;
+  width: 2px;
+  height: 62px;
+  top: 28px;
+}
+
+@media only Screen and (min-width: 320px) and (max-width: 426px) {
+  .border-x:before {
+    display: none;
+  }
+}
+
+@media only Screen and (min-width: 768px) {
+  .border-x:before {
+    left: -29px;
+  }
+}
+
+@media only Screen and (min-width: 1024px) {
+  .border-x:before {
+    left: -46px;
+  }
+}
+
+@media only Screen and (min-width: 1440px) {
+  .border-x:before {
+    left: -58px;
+  }
+}
+
+.border-l-style {
+  background-color: transparent;
+}
+
+.border-l-style:not(:last-of-type):before {
+  content: "";
+  position: absolute;
+  top: 27px;
+  height: 100%;
+  width: 1px;
+  left: 3.5px;
+  background-color: #00b8d4;
+}
+
+.border-l-style:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #00b8d4;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.fa-circle-o {
+  font-size: 10px;
+}
+
+.fa-circle-o.position-l {
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
